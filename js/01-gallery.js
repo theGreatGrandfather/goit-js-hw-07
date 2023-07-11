@@ -38,7 +38,7 @@ const onImgClick = (e) => {
         instance.show();
 
         function onEscapeKeydowm(e) {
-            if (event.code === "Escape") {
+            if (e.code === "Escape") {
                 console.log('e', e)
                 instance.close();
             }
